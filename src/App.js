@@ -12,13 +12,15 @@ function App() {
   useEffect(()=>{
     document.body.className = theme
   }, [theme])
-
+  
+  //data objesinin içine ne dahil edersek diğer componentlerde aynı seviyede erişilebilir olacaktır.
   const data ={
     theme,
     setTheme
   }
 
   return (
+    //2. adım main context provider ile componenti sarmalıyoruz. Value olarak data objesini veriyoruz.
     <MainContext.Provider value={data}>
      <Container/>
     </MainContext.Provider>

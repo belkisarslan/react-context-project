@@ -2,7 +2,7 @@ import React from 'react'
 import { MainContext, useContext } from '../context'
 
 const Container = () => {
-
+    //3.adım app.js'te tanımlayıp dataya eklediğimiz theme ve setTheme'i bu şekilde çağırıyoruz.
     const { theme, setTheme } = useContext(MainContext)
 
     const changeTheme = () => {
