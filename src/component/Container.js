@@ -10,8 +10,12 @@ const Container = () => {
     }
 
     return (
+        <div className='button-container3'>
+        <div className='button-container2'>
         <div className='button-container'>
             <button className='button-change' onClick={changeTheme}>Change Theme</button>
+        </div>
+        </div>
         </div>
     )
 }

@@ -16,16 +16,47 @@ body.dark .button-container{
   box-shadow: 0 4px 8px 0 #fc00ff, 0 6px 20px 0 #f9d423;
 }
 
+body.dark .button-container2{
+  box-shadow: 0 4px 8px 0 #00f2fe, 0 6px 20px 0 #f9d423;
+}
+
+body.dark .button-container3{
+  box-shadow: 0 4px 8px 0 #650c8f, 0 6px 20px 0 #f9d423;
+}
+
 .button-container{
   width: 300px;
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px auto;
+  margin: 10px auto;
   border-radius: 50%;
   
 }
+
+.button-container2{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  border-radius: 50%;
+  transition-duration: 2s;
+}
+
+.button-container3{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  border-radius: 50%;
+  transition-duration: 4s;
+}
+
  .button-change{
   width: 100px;
   height: 100px;
